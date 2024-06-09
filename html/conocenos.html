@@ -3,10 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discurso de Bienvenida - Tienda El Mesias</title>
-    <link rel="stylesheet" href="../css/conocenos.css">
+    <title>Tienda Mesias</title>
+    <link rel="icon" href="../imagenes/header/iconos/icono-ventana.png">
+    <link rel="stylesheet" href="../css/header-footer.css"> <!-- Estilo de header -->
+    <link rel="stylesheet" href="../css/footer.css"><!--estilo de footer-->
+    <link rel="stylesheet" href="../css/styles-base-origin.css">   
+     <link rel="stylesheet" href="../css/conocenos.css">
+     
 </head>
 <body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-menu-open">
+                <label for="menu-status">
+                    <img src="../imagenes/header/iconos/menu.png" alt="Menu-burger" class="nav-menu-open__img">
+                </label>
+            </div>
+            <div class="nav-logo">
+                <a href="index.html" class="nav-logo-reload">
+                    <img src="../imagenes/header/logo-sin-fondo.png" alt="logo-sin-fondo" class="nav-logo-reload__img">
+                </a>
+            </div>
+            <input type="checkbox" name="etado-de-menu" id="menu-status" class="menu-status">
+            <div class="nav-menu">
+                <ul class="nav-menu-ul">
+                    <li class="nav-menu-ul-item"> <!-- primer li -->
+                        <a href="index.html" class="nav-menu-ul-item-link">
+                            <div class="nav-menu-ul-item-link-b">
+                                <div class="nav-menu-ul-item-link-b-icon">
+                                    <img src="../imagenes/header/iconos/inicio-icono.png" alt="home-icon" class="nav-menu-ul-item-link-b-icon__img">
+                                    </div>
+                                <p class="nav-menu-ul-item-link-b__parrafo">Inicio</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-menu-ul-item"> <!-- segundo li -->
+                        <a href="tienda.html" class="nav-menu-ul-item-link">
+                            <div class="nav-menu-ul-item-link-b">
+                                <div class="nav-menu-ul-item-link-b-icon">
+                                    <img src="../imagenes/header/iconos/tienda.png" alt="store-icon" class="nav-menu-ul-item-link-b-icon__img">
+                                    </div>
+                                <p class="nav-menu-ul-item-link-b__parrafo">Tienda</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-menu-ul-item"> <!-- tercero li -->
+                        <a href="../html/conocenos.html" class="nav-menu-ul-item-link">
+                            <div class="nav-menu-ul-item-link-b">
+                                <div class="nav-menu-ul-item-link-b-icon">
+                                    <img src="../imagenes/header/iconos/informacion-icono.png" alt="about-icon" class="nav-menu-ul-item-link-b-icon__img">
+                                    </div>
+                                <p class="nav-menu-ul-item-link-b__parrafo">Nosotros</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-menu-ul-item nav-menu-ul-item--hidden"> <!-- cuarto li -Oculto Temp- -->
+                        <a href="index.html" class="nav-menu-ul-item-link">
+                            <div class="nav-menu-ul-item-link-b">
+                                <div class="nav-menu-ul-item-link-b-icon">
+                                    <img src="../imagenes/header/iconos/mensaje.png" alt="contact-icon" class="nav-menu-ul-item-link-b-icon__img">
+                                    </div>
+                                <p class="nav-menu-ul-item-link-b__parrafo">Contacto</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="nav-menu-close">
+                    <div class="nav-menu-close-icon">
+                        <label for="menu-status" class="nav-menu-close-label">
+                            <img src="../imagenes/header/iconos/salida.png" alt="Exit-icon" class="nav-menu-close__img">
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
     <div class="container">
         <h1>Conócenos</h1>
         <p>Queridos amigos y amigas,</p>
@@ -39,5 +110,34 @@
             <p>La misión de Tienda Mesías es proporcionar a nuestras familias y a la comunidad productos esenciales para el hogar y de la canasta familiar, siempre bajo un estricto código de valores cristianos. Nos dedicamos a ofrecer una experiencia de compra accesible y agradable, con productos de calidad y precios competitivos, fomentando un entorno familiar y ético en todo lo que hacemos.</p>
         </section>
     </div>
+       <!-- Footer -->
+       <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section footer-nav">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="../html/index.html">Inicio</a></li>
+                    <li><a href="tienda.html">Tienda</a></li>
+                    <li><a href="../html/conocenos.html">Nosotros</a></li>
+                    <li ><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section footer-contact">
+                <h4>Información</h4>
+                <p>Dirección: Calle Falsa 123, Ciudad, País</p>
+                <p>Teléfono: +123 456 789</p>
+                <p>Email: info@tiendaelmesias.com</p>
+            </div>
+            <div class="footer-section footer-social">
+                <h4>Síguenos</h4>
+                <a href="#"><img src="../imagenes/footer/facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="../imagenes/footer/twitter_5968830.png" alt="Twitter"></a>
+                <a href="#"><img src="../imagenes/footer/instagram_2111463.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Tienda El Mesias | Todos los derechos reservados
+        </div>
+    </footer>
 </body>
 </html>

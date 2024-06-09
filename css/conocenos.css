@@ -2,8 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #2de2bb, #4a00e0); /* Fondo degradado */
-    animation: changeBackground 10s ease infinite alternate; /* Animación */
+    background: linear-gradient(150deg, #bde6ff, #bde6ff); /* Fondo degradado */
 }
 
 .container {
