@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     margin: 0;
     padding: 0;
@@ -48,5 +49,13 @@ section {
     }
     100% {
         background-position: 100% 50%;
+    }
+}
+
+/* Media Query para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+    .container {
+        margin: 0 auto; /* Ajuste de margen */
+        border-radius: 0; /* Eliminar bordes redondeados */
     }
 }
