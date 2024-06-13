@@ -6,48 +6,117 @@
         <title>Tienda</title>
         <link rel="stylesheet" href="../css/tienda.css">
         <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/header-footer.css">
     </head>
     <body>
-        <main class="container">
-            <div class="box_1">
-                <h2 class="title">Producto de lmpieza</h2>
-                <div class="card">
-                    <img src="../imagenes/tienda/ambientador.jpn.webp" alt="producto de limpieza" class="producto">
+        <header class="header">
+            <nav class="nav">
+                <div class="nav-menu-open">
+                    <label for="menu-status">
+                        <img src="../imagenes/header/iconos/menu.png" alt="Menu-burger" class="nav-menu-open__img">
+                    </label>
                 </div>
-                <div class="card">
-                    <img src="../imagenes/tienda/lustra-muebles.jpng.webp" alt="producto de limpieza" class="producto">
+                <div class="nav-logo">
+                    <a href="index.html" class="nav-logo-reload">
+                        <img src="../imagenes/header/logo-sin-fondo.png" alt="logo-sin-fondo" class="nav-logo-reload__img">
+                    </a>
                 </div>
-                <div class="card">
-                    <img src="../imagenes/tienda/suavizante.jpn.webp" alt="producto de limpieza" class="producto">
-                </div>
-                <div class="card">
-                    <img src="../imagenes/tienda/toalla-humeda.jpn.webp" alt="producto de limpieza" class="producto">
-                </div>
-                <div class="card">
-                    <img src="../imagenes/tienda/jabon-liquido.jpng.webp" alt="producto de limpieza" class="producto">
-                </div>
-            </div>
-            <div class="container_2">
-                <div class="box_2">
-                    <div class="card-box_2">
-                        <img src="../imagenes/tienda/papitas.jpng.jpg" alt="dulce" class="producto_2">
+                <input type="checkbox" name="etado-de-menu" id="menu-status" class="menu-status">
+                <div class="nav-menu">
+                    <ul class="nav-menu-ul">
+                        <li class="nav-menu-ul-item"> <!-- primer li -->
+                            <a href="index.html" class="nav-menu-ul-item-link">
+                                <div class="nav-menu-ul-item-link-b">
+                                    <div class="nav-menu-ul-item-link-b-icon">
+                                        <img src="../imagenes/header/iconos/inicio-icono.png" alt="home-icon" class="nav-menu-ul-item-link-b-icon__img">
+                                        </div>
+                                    <p class="nav-menu-ul-item-link-b__parrafo">Inicio</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-menu-ul-item"> <!-- segundo li -->
+                            <a href="tienda.html" class="nav-menu-ul-item-link">
+                                <div class="nav-menu-ul-item-link-b">
+                                    <div class="nav-menu-ul-item-link-b-icon">
+                                        <img src="../imagenes/header/iconos/tienda.png" alt="store-icon" class="nav-menu-ul-item-link-b-icon__img">
+                                        </div>
+                                    <p class="nav-menu-ul-item-link-b__parrafo">Tienda</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-menu-ul-item"> <!-- tercero li -->
+                            <a href="../html/conocenos.html" class="nav-menu-ul-item-link">
+                                <div class="nav-menu-ul-item-link-b">
+                                    <div class="nav-menu-ul-item-link-b-icon">
+                                        <img src="../imagenes/header/iconos/informacion-icono.png" alt="about-icon" class="nav-menu-ul-item-link-b-icon__img">
+                                        </div>
+                                    <p class="nav-menu-ul-item-link-b__parrafo">Nosotros</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-menu-ul-item nav-menu-ul-item--hidden"> <!-- cuarto li -Oculto Temp- -->
+                            <a href="../html/contactos.html" class="nav-menu-ul-item-link">
+                                <div class="nav-menu-ul-item-link-b">
+                                    <div class="nav-menu-ul-item-link-b-icon">
+                                        <img src="../imagenes/header/iconos/mensaje.png" alt="contact-icon" class="nav-menu-ul-item-link-b-icon__img">
+                                        </div>
+                                    <p class="nav-menu-ul-item-link-b__parrafo">Contacto</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="nav-menu-close">
+                        <div class="nav-menu-close-icon">
+                            <label for="menu-status" class="nav-menu-close-label">
+                                <img src="../imagenes/header/iconos/salida.png" alt="Exit-icon" class="nav-menu-close__img">
+                            </label>
+                        </div>
                     </div>
-                    <div class="card-box_2">
-                        <img src="../imagenes/tienda/chicles.jpng.jpg" alt="dulce" class="producto_2">
-                    </div>
-                    <div class="card-box_2">
-                        <img src="../imagenes/tienda/coca-cola.jpng.jpg" alt="dulce" class="producto_2">
-                    </div>
-                    <div class="card-box_2">
-                        <img src="../imagenes/tienda/bombombum.jpng.jpg" alt="dulce" class="producto_2">
-                    </div>
                 </div>
-                <div class="box_3">
-                    <div class="card-box_3">
-                        <img src="../imagenes/tienda/azucar.jpng.webp" alt="comida" class="producto_3">
+            </nav>
+        </header>
+        <main>
+            <div class="mainBox">
+                <div class="firtstBox">
+                    <div class="card-publiBox-1">
+                        <img src="../IMAGENES/exito.jpng.webp" alt="Publicidad de la tienda el mesias" class="img-publiBox-1">
                     </div>
-                    <div class="card-box_3">
-                        <img src="../imagenes/tienda/sal.jpng.webp" alt="comida" class="producto_3">
+                    <div class="container">
+                        <div class="imgProduct-1">
+                            <img src="../IMAGENES/redbull-exito.jpng.webp" alt="Producto de tienda el mesias" class="img-imgProduct-1">
+                        </div>
+                        <div class="imgProduct-1">
+                            <img src="../IMAGENES/redbull-exito.jpng.webp" alt="Producto de tienda el mesias" class="img-imgProduct-1">
+                        </div>
+                        <div class="imgProduct-2">
+                            <img src="../IMAGENES/newCollection.jpng.webp" alt="Producto de tienda el mesias" class="img-imgProduct-1">
+                        </div>
+                </div>
+                </div>
+                <div class="secondBox">
+                    <div class="card-publiBox-2">
+                        <img src="../IMAGENES/exito.jpng.webp" alt="Publicidad de la tienda el mesias" class="img-publiBox-1">
+                    </div>
+                    <div class="container-2">
+                        <div class="limit-1">
+                            <div class="lim-imgProduct-1">
+                                <img src="../IMAGENES/redbull-exito.jpng.webp" alt="Producto de la tienda el mesias" class="img-imgProduct-1">
+                            </div>
+                            <div class="lim-imgProduct-1">
+                                <img src="../IMAGENES/redbull-exito.jpng.webp" alt="Producto de la tienda el mesias" class="img-imgProduct-1">
+                            </div>
+                        </div>
+                        <div class="imgProduct-3">
+                            <img src="../IMAGENES/consolas-exito.jpng.webp" alt="Producto de la tienda el mesias" class="img-imgProduct-2">
+                        </div>
+                        <div class="limit-3">
+                            <div class="lim-imgProduct-4">
+                                <img src="../IMAGENES/redbull-exito.jpng.webp" alt="Producto de la tienda el mesias" class="img-imgProduct-1">
+                            </div>
+                            <div class="lim-imgProduct-4">
+                                <img src="../IMAGENES/redbull-exito.jpng.webp" alt="Producto de la tienda el mesias" class="img-imgProduct-1">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
