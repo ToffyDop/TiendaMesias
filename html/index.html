@@ -5,9 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tienda Mesias</title>
         <link rel="icon" href="../imagenes/header/iconos/icono-ventana.png">
+        <link rel="stylesheet" href="../css/styles-base-origin.css"> <!-- Estilos Universales -->
         <link rel="stylesheet" href="../css/header-footer.css"> <!-- Estilo de header -->
         <link rel="stylesheet" href="../css/footer.css"><!--estilo de footer-->
-        <link rel="stylesheet" href="../css/styles-base-origin.css">
+        <link rel="stylesheet" href="../css/styles-index.css"> <!-- Estilos de idex -->
     </head>
     <body>
         <header class="header">
@@ -76,6 +77,160 @@
                 </div>
             </nav>
         </header>
+        <main class="main">
+            <div class="banner">
+                <img src="../imagenes/index/banner-index2.jpg" alt="banner-index" class="banner__img">
+            </div>
+            <div class="lema-semana">
+                <h1 class="titulo">
+                    ¡LO MEJOR PARA TI!
+                </h1>
+            </div>
+            <div class="filtro">
+                <label for="new" class="label">
+                    <div class="select new">
+                        <p class="link">Nuevo</p>
+                    </div>
+                </label>
+                <label for="todo" class="label">
+                    <div class="select todo">
+                        <p class="link">Todo</p>
+                    </div>
+                </label>
+                <!-- <label for="promo" class="label">
+                    <div class="select promo">
+                        <p class="link">Promo</p>
+                    </div>
+                </label>
+                <label for="noticia" class="label">
+                    <div class="select noticias">
+                        <a class="link">Noticias</a>
+                    </div>
+                </label> -->
+            </div>
+            <input type="radio" name="filtro" id="todo" class="input-radio todo">
+            <input type="radio" name="filtro" id="new" class="input-radio new">
+            <input type="radio" name="filtro" id="promo" class="input-radio promo">
+            <input type="radio" name="filtro" id="noticia" class="input-radio noticia">
+            <div class="bloque">
+                <section class="contenido">
+                    <div class="card promo new">
+                        <article class="articulo-tipo1">
+                            <div class="contexto">
+                                <h2 class="titulo">
+                                    Para Papá: ¡Dale el Gusto!
+                                </h2>
+                                <p class="parrafo">
+                                    Celebra a papá con nuestras increíbles promociones. Aprovecha el paga 3 lleva 4 en productos Colombina y obtén hasta un 15% de descuento en productos Trululu (dulces). ¡Es el momento perfecto para darle el gusto y hacer que su día sea aún más especial!
+                                </p>
+                            </div>
+                            <div class="referencia-grafica">
+                                <img src="../imagenes/index/contenido/familia-feliz.jpg" alt="padre-feliz" class="img">
+                            </div>
+                        </article>
+                    </div>
+                    <div class="card noticia new"> <!-- Card -->
+                        <article class="articulo-tipo2">
+                            <div class="contexto">
+                                <h2 class="titulo">
+                                    Bienvenida Winny:<br>¡La Mejor Opción para tu Bebé!
+                                </h2>
+                                <p class="parrafo">
+                                    Nos complace anunciar que Winny, la marca líder en productos para bebés, ahora es nuestra aliada. Contamos con todas las referencias de pañales al mejor precio para brindarte calidad y cuidado en cada etapa del crecimiento de tu bebé. ¡Ven y descubre nuestras ofertas!
+                                </p>
+                            </div>
+                            <div class="referencia-grafica">
+                                <img src="../imagenes/index/contenido/familia-feliz.jpg" alt="padre-feliz" class="img">
+                                <img src="../imagenes/index/contenido/familia-feliz.jpg" alt="padre-feliz" class="img">
+                                <img src="../imagenes/index/contenido/familia-feliz.jpg" alt="padre-feliz" class="img">
+                            </div>
+                        </article>
+                    </div>
+                    <div class="card noticia new"> <!-- Card -->
+                        <article class="articulo-tipo1">
+                            <div class="contexto">
+                                <h2 class="titulo">
+                                    Miércoles Saludables
+                                </h2>
+                                <p class="parrafo">
+                                    Este miércoles 19 de junio, aprovecha nuestro descuento especial del 30% en frutas y verduras. Es la oportunidad perfecta para llenar tu canasta de productos frescos y saludables a un precio inigualable. ¡No te lo pierdas!
+                                </p>
+                            </div>
+                            <div class="referencia-grafica">
+                                <img src="../imagenes/index/contenido/familia-feliz.jpg" alt="padre-feliz" class="img">
+                            </div>
+                        </article>
+                    </div>
+                    <div class="card noticia"> <!-- Card -->
+                        <article class="articulo-tipo2">
+                            <div class="contexto">
+                                <h2 class="titulo">
+                                    Acumula Puntos Colombia
+                                </h2>
+                                <p class="parrafo">
+                                    ¡Buenas noticias! Desde el 1 de junio, ahora también puedes acumular Puntos Colombia con nosotros. Cada compra te acerca a increíbles recompensas. ¡Empieza a acumular hoy mismo y disfruta de todos los beneficios!
+                                </p>
+                            </div>
+                            <div class="referencia-grafica">
+                                <img src="../imagenes/index/contenido/familia-feliz.jpg" alt="padre-feliz" class="img">
+                                <img src="../imagenes/index/contenido/familia-feliz.jpg" alt="padre-feliz" class="img">
+                                <img src="../imagenes/index/contenido/familia-feliz.jpg" alt="padre-feliz" class="img">
+                            </div>
+                        </article>
+                    </div>
+                    <div class="card promo"> <!-- Card -->
+                        <article class="articulo-tipo1 articulo-tipo1--md">
+                            <div class="referencia-grafica referencia-grafica--md">
+                                <img src="../imagenes/index/contenido/familia-feliz.jpg" alt="padre-feliz" class="img">
+                            </div>
+                            <div class="contexto">
+                                <h2 class="titulo">
+                                    Oferta Especial en Huevos
+                                </h2>
+                                <p class="parrafo parrafo--md">
+                                    No te pierdas nuestra increíble oferta: una canasta de huevos por tan solo 12,000 pesitos. Aprovecha esta promoción por tiempo limitado hasta el 20 de junio y llena tu despensa con productos de calidad al mejor precio.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="card promo"> <!-- Card -->
+                        <article class="articulo-tipo1">
+                            <div class="contexto">
+                                <h2 class="titulo">
+                                    Descuento en Arroz a Granel
+                                </h2>
+                                <p class="parrafo">
+                                    ¡Ahorra en tu compra diaria! Obtén un 10% de descuento en el kilo de arroz a granel. Es el momento ideal para abastecer tu cocina con uno de los productos básicos a un precio insuperable.
+                                </p>
+                            </div>
+                            <div class="referencia-grafica">
+                                <img src="../imagenes/index/contenido/familia-feliz.jpg" alt="padre-feliz" class="img">
+                            </div>
+                        </article>
+                    </div>
+                    <div class="card promo"> <!-- Card -->
+                        <article class="articulo-tipo2">
+                            <div class="contexto">
+                                <h2 class="titulo">
+                                    Combo Suavitel: ¡Suavidad Extra para tu Ropa!
+                                </h2>
+                                <p class="parrafo">
+                                    Lleva la suavidad a otro nivel con nuestro combo especial de Suavitel. Compra un tarro de 2000 ml y llévate gratis un sobre de 500 ml. Aprovecha esta oferta y disfruta de la frescura y suavidad en cada lavado.
+                                </p>
+                            </div>
+                            <div class="referencia-grafica">
+                                <img src="../imagenes/index/contenido/familia-feliz.jpg" alt="padre-feliz" class="img">
+                                <img src="../imagenes/index/contenido/familia-feliz.jpg" alt="padre-feliz" class="img">
+                                <img src="../imagenes/index/contenido/familia-feliz.jpg" alt="padre-feliz" class="img">
+                            </div>
+                        </article>
+                    </div>
+                </section>
+                <div class="barra-lateral">
+                    <img src="../imagenes/index/lateralBanner.png" alt="lateralBanner" class="img">
+                </div>
+            </div>
+        </main>
         <!-- Footer -->
     <footer class="footer">
         <div class="footer-container">
