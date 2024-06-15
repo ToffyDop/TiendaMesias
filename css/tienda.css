@@ -3,148 +3,78 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: white;
-}
 .mainBox{
-    background-color: white;
-    height: 100%;
-    width: 98.3%;
-    margin: 10px 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
     overflow: hidden;
 }
-.firtsbox{
-    background-color: white;
+.firtsbox, .fourthBox{
+    width: 100%;
+    padding: 10px;
     display: flex;
-    flex-wrap: wrap;
-    overflow: hidden;
-    height: 150px;
-    margin: 10px 10px;
-    flex-direction: row;
+    flex-direction: column;
 }
-.card-publiBox-1{
-    border-radius: 9px;
-    flex-direction: row;
-    width: 99.3%;
-    margin: 7px 5px;
+.publicidad-barra{
+    width: 100%;
     height: 100px;
-    display: flex;
-    align-items: normal;
-    justify-content: space-between;
-    overflow: hidden;
+    border-radius: 9px;
 }
-.img-publiBox-1{
+.publicidad-barra__img{
     width: 100%;
     height: 100%;
 }
 .container{
-    background-color: white;
-    height: 100%;
     width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 10px;
 }
-.imgProduct-1{
+.container--md{
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.card1x1{
     border-radius: 9px;
-    width: 25.5%;
-    margin: 7px 5px;
-    height: 270px;
-    display: flex;
     overflow: hidden;
 }
-.img-imgProduct-1{
+.card1x1__img{
     width: 100%;
     height: 100%;
 }
 .imgProduct-2{
     border-radius: 9px;
-    width: 50%;
-    margin: 7px 5px;
-    height: 270px;
-    display: flex;
     overflow: hidden;
 }
-.secondBox{
-    background-color: white;
-    display: flex;
-    flex-wrap: wrap;
-    overflow: hidden;
-    height: 100%;
-    margin: 10px 10px;
-    flex-direction: row;
-}
-.card-publiBox-2{
-    border-radius: 9px;
-    flex-direction: row;
-    width: 99.3%;
-    margin: 7px 5px;
-    height: 100px;
-    display: flex;
-    align-items: normal;
-    justify-content: space-between;
-    overflow: hidden;
-}
-.img-publiBox-1{
+.imgProduct-2__img{
     width: 100%;
     height: 100%;
+}
+.secondBox, .fifthBox{
+    width: 100%;
+    padding: 10px;
 }
 .container-2{
-    background-color: white;
-    height: 100%;
     width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
 }
 .limit-1{
-    background-color: white;
-    height: 20%;
-    width: 23.5%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
-.lim-imgProduct-1{
-    border-radius: 9px;
     width: 100%;
-    margin: 7px 5px;
-    height: 270px;
-    display: flex;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
 }
 .imgProduct-3{
-    border-radius: 9px;
-    width: 50%;
-    margin: 7px 5px;
-    height: 570px;
-    display: flex;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
 }
-.img-imgProduct-2{
+.imgProduct-3__img{
     width: 100%;
     height: 100%;
 }
-.limit-3{
-    background-color: white;
-    height: 20%;
-    width: 23.5%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
-.lim-imgProduct-4{
-    border-radius: 9px;
-    width: 100%;
-    margin: 7px 5px;
-    height: 270px;
-    display: flex;
-    margin: 5px 5px;
-    overflow: hidden;
-}
 .thirdBox{
-    background-color: white;
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
